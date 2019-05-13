@@ -1,0 +1,33 @@
+.color-text {
+  color: $teal-800;
+  font-weight: 800;
+}
+
+.verse-text {
+  font-family: "Amatic SC", cursive;
+  font-size: 24px;
+}
+
+.verse-text-reference {
+  font-family: "Amatic SC", cursive;
+  font-size: 22px;
+}
+
+.small-verse-text {
+  font-family: "Amatic SC", cursive;
+  font-size: 22px;
+}
+
+.small-verse-text-reference {
+  font-family: "Amatic SC", cursive;
+  font-size: 18px;
+}
+
+.center-items {
+  display: flex;
+  align-items: center;
+}
+
+.card-icon {
+  margin-right: 15px;
+}

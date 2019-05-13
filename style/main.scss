@@ -1,0 +1,35 @@
+@import "bootstrap-4.3.1/scss/bootstrap";
+@import "bootstrap-4.3.1/scss/bootstrap-reboot";
+@import "bootstrap-4.3.1/scss/bootstrap-grid";
+@import "vars";
+@import "color";
+@import "img";
+@import "button";
+@import "nav";
+@import "landing";
+@import "calendar";
+@import "footer";
+@import "text";
+@import "hero";
+
+body {
+  background-color: $ghost-white;
+  min-height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.white-bg {
+  background-color: white;
+}
+
+.standard-buffer {
+  margin-top: 50px;
+}
+
+.half-buffer {
+  margin-top: 25px;
+}
+
+.quarter-buffer {
+  margin-top: 12.5px;
+}

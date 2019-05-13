@@ -1,0 +1,75 @@
+.event-date {
+  color: white;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 100%;
+  display: flex;
+  margin-bottom: 7.5px;
+  @media screen and (min-width: $br-xs) {
+    width: 52px;
+    margin-bottom: 0px;
+    display: inline-block;
+  }
+}
+
+.event-day {
+  font-family: "Lato", sans-serif;
+  background-color: $teal-500;
+  display: inline-block;
+  text-align: right;
+  padding-right: 10px;
+  font-size: 1.2rem;
+  width: 50%;
+  border-radius: 2px 0px 0px 2px;
+  box-sizing: content-box;
+  position: relative;
+  right: 0px;
+  @media screen and (min-width: $br-xs) {
+    padding-right: 0px;
+    width: 100%;
+    text-align: center !important;
+    display: block;
+    border-radius: 2px 2px 0px 0px;
+  }
+}
+
+.event-month {
+  font-family: "Lato", sans-serif;
+  background-color: $teal-800;
+  display: inline-block;
+  text-align: left;
+  padding-left: 10px;
+  width: 50%;
+  position: relative;
+  font-size: 1.2rem;
+  border-radius: 0px 2px 2px 0px;
+  left: 0px;
+  @media screen and (min-width: $br-xs) {
+    padding-left: 0px;
+    width: 100%;
+    text-align: center !important;
+    display: block;
+    border-radius: 0px 0px 2px 2px;
+  }
+}
+
+.calendar-btn {
+  text-align: center !important;
+  width: 100%;
+  background-color: $grey-200;
+  margin-top: 12.5px;
+
+  @media screen and (min-width: $br-s) {
+    margin-top: 4px;
+  }
+
+  &:hover {
+    color: white;
+    background-color: $pink-800;
+  }
+}
+
+.calendar-border-bottom {
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 25px;
+}

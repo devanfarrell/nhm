@@ -1,0 +1,84 @@
+.npm-hero {
+  background-position-y: center;
+  background-size: cover;
+  overflow: hidden;
+  width: 100%;
+  padding: 100px 0px;
+  font-size: 48px;
+
+  .justify-hero {
+    &.right {
+      text-align: right;
+
+      div {
+        margin-right: 50px;
+      }
+    }
+
+    &.left {
+      text-align: left;
+
+      & > div {
+        margin-left: 50px;
+
+        > span {
+          line-height: 75px;
+        }
+      }
+    }
+
+    &.right {
+      text-align: right;
+
+      & > div {
+        margin-left: 50px;
+
+        > span {
+          line-height: 75px;
+        }
+      }
+    }
+
+    > div {
+      > span {
+        margin-right: 20px;
+        padding: 0px 10px;
+        line-height: 75px;
+      }
+    }
+
+    // colors
+    &.white-highlight {
+      > div {
+        > span {
+          background-color: white;
+        }
+      }
+    }
+
+    &.teal-highlight {
+      > div {
+        > span {
+          background-color: $teal-600;
+        }
+      }
+    }
+
+    &.orange-text {
+      color: $orange;
+    }
+
+    &.white-text {
+      color: white;
+    }
+  }
+
+  // images
+  &.desert-img {
+    background-image: url("/img/crackedDirt.png");
+  }
+
+  &.teal-bag-img {
+    background-image: url("/img/christmas-project.png");
+  }
+}

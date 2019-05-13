@@ -1,0 +1,24 @@
+#hero {
+  background: $landing-img-one;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  min-height: 320px;
+
+  background-size: cover;
+
+  @media screen and (min-width: $br-s) {
+    min-height: 480px;
+  }
+  @media screen and (min-width: $br-m) {
+    min-height: 680px;
+  }
+  @media screen and (min-width: $br-l) {
+    min-height: 900px;
+  }
+}
+
+.association-container {
+  background-color: $grey-200;
+  padding-bottom: 50px;
+}
