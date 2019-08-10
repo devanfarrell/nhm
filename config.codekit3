@@ -17,12 +17,28 @@
 		"oAP": "/about.html",
 		"oF": 0
 		},
+	"/build/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/.gitignore",
+		"oF": 0
+		},
 	"/CNAME": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/CNAME",
+		"oF": 0
+		},
+	"/contact.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/contact.html",
 		"oF": 0
 		},
 	"/event/2019/session-spring.html": {
@@ -1684,7 +1700,8 @@
 	"displayValue": "nhm",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-owl",
-	"iconImageWasSetByUser": 0
+	"iconImageWasSetByUser": 0,
+	"lastBuiltDate": 587108633.31036603
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
